@@ -348,7 +348,9 @@ h4 {
 
 
 .review-container {
-    /* background: red; */
+    width: 650px;
+    max-width: 100%;
+    flex: 1;
 }
 
 
@@ -379,6 +381,53 @@ h4 {
 
 .fa-star{
     color: var(--gold-finger);
+}
+
+
+
+
+
+.arrow{
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+
+
+
+/* SECTION 04 */
+
+
+
+
+.app-container{
+    background: var(--hint-yellow);
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+}
+
+
+
+.app-imgage{
+    flex: 1;
+}
+
+
+
+
+.app-container .image-container img{
+    width: 25rem;
+}
+
+
+
+.app-container .content h2{
+    font-size: 4.5rem;
 }
 
 
@@ -498,5 +547,23 @@ h4 {
 
     .h2 {
         font-size: 3rem;
+    }
+
+
+
+
+    /* SECTION 04 */
+
+
+
+    .app-container{
+        padding: 2.2rem;
+    }
+
+
+
+
+    .app-container .content h2{
+        font-size: 3.5rem;
     }
 }
